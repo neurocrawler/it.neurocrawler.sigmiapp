@@ -1,0 +1,2 @@
+module CoocosHelper
+end

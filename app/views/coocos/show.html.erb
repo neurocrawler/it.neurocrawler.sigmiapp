@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Lamento:</strong>
+  <%= @cooco.content %>
+</p>
+
+<p>
+  <strong>Autore:</strong>
+  <%= @cooco.user.name + ' '+ @cooco.user.surname %>
+</p>
+
+<%= link_to 'Edit', edit_cooco_path(@cooco) %> |
+<%= link_to 'Back', coocos_path %>
