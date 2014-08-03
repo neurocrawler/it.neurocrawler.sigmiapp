@@ -1,17 +1,5 @@
 Rails.application.routes.draw do
-  # get 'user/new'
 
-  # get 'user/create'
-
-  # get 'user/update'
-
-  # get 'user/edit'
-
-  # get 'user/destroy'
-
-  # get 'user/index'
-
-  # get 'user/show'
 
   resources :users
   resources :coocos
@@ -20,7 +8,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+   root 'coocos#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
